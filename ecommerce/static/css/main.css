@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  margin: 10% 0px;
+}
+.container-form form {
+  width: 500px;
+  background-color: azure;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.container-form form a {
+  text-decoration: none;
+  color: black;
+}
+.container-form form h1 {
+  text-align: center;
+}
+.container-form form .input-col, .container-form form label, .container-form form .btn-group, .container-form form .auth {
+  margin: 5% 10px;
+}
+.container-form form .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.container-form form .btn-group button {
+  width: 60%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  transition: all 0.3s;
+}
+.container-form form .btn-group button:hover, .container-form form .btn-group button:active, .container-form form .btn-group button:focus {
+  background-color: #59b394;
+}
+.container-form form .input-col {
+  padding: 10px;
+  border: 2px black solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+.container-form form .input-col i.hide {
+  display: none;
+}
+.container-form form .input-col i, .container-form form .input-col input {
+  margin: 4px;
+  transition: all 0.3s;
+}
+.container-form form .input-col input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+.container-form form .input-col input:hover, .container-form form .input-col input:active, .container-form form .input-col input:focus {
+  outline: none;
+  border: none;
+}
+.container-form form .input-col:hover, .container-form form .input-col:active, .container-form form .input-col:focus {
+  border-color: rgb(9, 211, 53);
+}
+.container-form form .input-col:hover i, .container-form form .input-col:active i, .container-form form .input-col:focus i {
+  color: rgb(9, 211, 160);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0px;
+    form{
+        width: 500px;
+        background-color: azure;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            text-align: center;
+        }
+       
+        .input-col,label,.btn-group,.auth{
+            margin:5% 10px;
+            
+        }
+        .btn-group{
+            display: flex;
+            justify-content:center ;
+            margin-top: 10% ;
+            button{
+                width: 60%;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: aquamarine;
+                transition: all 0.3s;
+                &:hover,&:active,&:focus{
+                    background-color:mix(black,aquamarine,30) ;
+                    
+                }
+            }
+        }
+        .input-col{
+            padding: 10px;
+            border: 2px black solid;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            transition: all 0.3s;
+            i.hide{
+                display: none;
+            }
+            i,input{
+                margin: 4px;
+                transition: all 0.3s;
+            }
+            input{
+                background-color: transparent;
+                border: none;
+                outline: none;
+                width: 100%;
+                &:hover,&:active,&:focus{
+                    outline: none;
+                    border: none;
+                }
+            }
+            &:hover,&:active,&:focus{
+                border-color:rgb(9, 211, 53) ;
+                i{
+                    color:rgb(9, 211, 160);
+                }
+            }
+        }
+    }
+}
